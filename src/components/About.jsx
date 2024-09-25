@@ -51,8 +51,9 @@ const About = () => {
         <b> JavaScript Es6+</b>, and expertise in frameworks like <b>Vue</b>,
         <b> Nuxt </b>and also familier with <b>React</b>. I'm a
         <b> quick learner</b> and collaborate closely with other teams to create
-        <b> efficient</b>, <b> scalable</b>, and <b> user-friendly</b> solutions that solve real-world
-        problems. Let's work together to bring your <b> ideas</b> to life!
+        <b> efficient</b>, <b> scalable</b>, and <b> user-friendly</b> web
+        application that stunning in real-world. Let's work together to bring
+        your <b> ideas</b> to life!
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10 justify-center">
