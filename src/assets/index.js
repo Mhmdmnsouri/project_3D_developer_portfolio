@@ -67,7 +67,6 @@ export {
   sass,
   meta,
   shopify,
-  starbucks,
   tesla,
   carrent,
   jobit,

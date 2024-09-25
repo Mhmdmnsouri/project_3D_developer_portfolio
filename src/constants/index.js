@@ -23,7 +23,6 @@ import {
   pinia,
   sass,
   meta,
-  starbucks,
   tesla,
   shopify,
   carrent,
@@ -125,7 +124,7 @@ const experiences = [
   {
     title: "Python Couch",
     company_name: "Yasan Academy",
-    icon: starbucks,
+    icon: tesla,
     iconBg: "#383E56",
     date: "Jan 2023 - May 2023 ( 5 months )",
     points: [
