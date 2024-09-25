@@ -30,7 +30,6 @@ import axios from "./tech/axios.svg";
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
-import starbucks from "./company/Yasan.png";
 import tesla from "./company/tesla.png";
 
 import carrent from "./carrent.png";
