@@ -111,10 +111,6 @@ const technologies = [
     icon: git,
   },
   {
-    name: "Gitlab",
-    icon: gitlab,
-  },
-  {
     name: "figma",
     icon: figma,
   },
