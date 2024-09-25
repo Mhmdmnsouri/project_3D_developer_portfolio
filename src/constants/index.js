@@ -98,22 +98,22 @@ const technologies = [
     name: "Tailwind CSS",
     icon: tailwind,
   },
-  {
-    name: "Npm",
-    icon: npm,
-  },
-  {
-    name: "Yarn",
-    icon: yarn,
-  },
-  {
-    name: "git",
-    icon: git,
-  },
-  {
-    name: "figma",
-    icon: figma,
-  },
+  // {
+  //   name: "Npm",
+  //   icon: npm,
+  // },
+  // {
+  //   name: "Yarn",
+  //   icon: yarn,
+  // },
+  // {
+  //   name: "git",
+  //   icon: git,
+  // },
+  // {
+  //   name: "figma",
+  //   icon: figma,
+  // },
 ];
 
 const experiences = [
