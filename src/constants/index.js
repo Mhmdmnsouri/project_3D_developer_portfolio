@@ -134,7 +134,7 @@ const experiences = [
     company_name: "Webishow",
     icon: tesla,
     iconBg: "#E6DEDD",
-    date: "Jun 2023 - Jul 2023 ( 1 yrs )",
+    date: "Jun 2023 - May 2023 ( 1 yrs )",
     points: [
       "development of the ui design of the pardehStore shop project which was used online for suitable events to sell the product.",
       "Implementing two panel management(CRM) for personel and client CC platform (Api base).",
