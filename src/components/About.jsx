@@ -47,13 +47,13 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        I'm a skilled frontend developer with <b>2+ years</b> experience in
-        <b> JavaScript Es6+</b>, and expertise in frameworks like <b>Vue</b>,
-        <b> Nuxt </b>and also familier with <b>React</b>. I'm a
-        <b> quick learner</b> and collaborate closely with other teams to create
-        <b> efficient</b>, <b> scalable</b>, and <b> user-friendly</b> web
-        application that stunning in real-world. Let's work together to bring
-        your <b> ideas</b> to life!
+        I'm a experienced frontend developer with <b>2+ years</b> of experience
+        in developing and maintaining web aplications. skilled in{" "}
+        <b> JavaScript Es6+</b>,<b> TaillwindCss</b>, <b>Vuejs</b>,{" "}
+        <b>Nuxtjs</b>, <b>Pinia</b> and other frameworks / libraries like
+        <b> Vuetify</b>, <b>NuxtUI</b>, <b>daisyUI</b>, also familier with
+        <b> Reactjs</b>. I'm a <b>quick learner</b> and commited to continuos
+        learning and staying updated in the fast-changing tech world.
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10 justify-center">
