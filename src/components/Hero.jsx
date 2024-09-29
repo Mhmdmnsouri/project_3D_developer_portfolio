@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-
+import profile from "../assets/profile.jpg";
 import { styles } from "../styles";
 import { ComputersCanvas } from "./canvas";
 
@@ -7,8 +7,13 @@ const Hero = () => {
   return (
     <section className={`relative w-full h-screen mx-auto`}>
       <div
-        className={`absolute inset-0 top-[120px]  max-w-7xl mx-auto ${styles.paddingX} flex flex-row items-start gap-5`}
+        className={`absolute inset-0 top-[120px]  max-w-7xl mx-auto ${styles.paddingX} flex sm:flex-row items-start gap-5`}
       >
+        <img
+          src={profile}
+          className="hidden sm:block sm:w-40 md:w-60 lg:w-80 rounded-lg mt-6"
+          alt="description"
+        />
         <div className="flex flex-col justify-center items-center mt-5">
           <div className="w-5 h-5 rounded-full bg-[#915EFF]" />
           <div className="w-1 sm:h-80 h-40 violet-gradient" />
@@ -19,10 +24,15 @@ const Hero = () => {
             Hi, I'm <span className="text-[#915EFF]">Mohamad</span>
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-            Creative, Ambitious and Detrmined {" "}
-            <br className="sm:block hidden" />
-            Frontend Developer ッ
+            Creative, Ambitious and Detrmined <br className="sm:block hidden" />
+            <span className="border-b border-[#915EFF]">Frontend</span>{" "}
+            Developer ッ
           </p>
+          <img
+            src={profile}
+            className="sm:hidden w-60 rounded-lg mt-14 ml-6"
+            alt="description"
+          />
         </div>
       </div>
       {/* <ComputersCanvas /> */}
@@ -47,5 +57,4 @@ const Hero = () => {
     </section>
   );
 };
-
 export default Hero;
