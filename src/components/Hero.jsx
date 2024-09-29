@@ -30,7 +30,7 @@ const Hero = () => {
           </p>
           <img
             src={profile}
-            className="sm:hidden w-60 rounded-lg mt-14 ml-2"
+            className="sm:hidden w-60 rounded-lg mt-12 ml-2"
             alt="description"
           />
         </div>
